@@ -1,0 +1,39 @@
+# License for available code
+
+```
+Copyright (C) 2017 Alexandre Fioravante de Siqueira
+
+This file is part of the supplementary material to the Short Course 8 from
+18th Annual Conference IAMG2017, ''Image Processing using Python'.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+```
+
+
+# License for available images
+
+Images `image1.bmp`, `image2.bmp`, and `harder_case.jpg` were obtained from
+de Siqueira et al (2017):
+
+A.F. de Siqueira, W.M. Nakasuga, S.G. de Oliveira, R. Jonckheere and L.
+Ratschbacher. Segmentation of nearly isotropic overlapped tracks in
+photomicrographs using successive erosions as watershed markers, 2017.
+Available at <https://arxiv.org/abs/1706.03282>.
+
+* This paper is available on: [[arXiv]](https://arxiv.org/abs/1706.03282)
+
+```
+These images are licensed under the Creative Commons Attribution 4.0 International
+License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
+```

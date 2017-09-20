@@ -8,9 +8,9 @@ well-documented system based in the Python programming language. Applications
 of each topic will be given using optical microscopic images.
 
 * For more info:
-⋅⋅* [[International Association for Mathematical Geosciences]](https://www.iamg.org/)
-⋅⋅* [[18th Annual Conference IAMG2017]](http://iamg2017.com/)
-⋅⋅* [[scikit-image]](http://scikit-image.org/)
+  * [[International Association for Mathematical Geosciences]](https://www.iamg.org/)
+  * [[18th Annual Conference IAMG2017]](http://iamg2017.com/)
+  * [[scikit-image]](http://scikit-image.org/)
 
 ```
 Copyright (C) 2017 Alexandre Fioravante de Siqueira

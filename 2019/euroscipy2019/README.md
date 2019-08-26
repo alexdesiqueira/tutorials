@@ -22,4 +22,4 @@ For more info:
 
 To cite this material, please use the reference below (this is a Chicago-like style):
 
-  * _de Siqueira, Alexandre Fioravante. "Support material for the tutorial 3D image processing with scikit-image." EuroSciPy 2019. 2019, Sep 02. Access date: <ACCESS DATE>_
+  * _de Siqueira, Alexandre Fioravante. "Support material for the tutorial 3D image processing with scikit-image." EuroSciPy 2019. 2019, Sep 02. Access date: < ACCESS DATE >_

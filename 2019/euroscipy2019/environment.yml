@@ -1,0 +1,22 @@
+# Use the conda env command to create an environment ready for this tutorial!
+# $ conda env create -f environment.yml
+# Then, to activate this environment,
+# $ conda activate euroscipy2019_skimage
+# To come back to your master environment,
+# $ conda activate
+# More on conda environments at:
+# https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+
+name: euroscipy2019_skimage
+channels:
+  - conda-forge
+dependencies:
+  - python >= 3.6
+  - numpy >= 1.12
+  - scipy >= 1.0
+  - matplotlib >= 2.1
+  - scikit-image >= 0.15
+  - scikit-learn >= 0.18
+  - notebook >= 4.0
+  - itk >= 5.0
+  - itkwidgets >= 0.18

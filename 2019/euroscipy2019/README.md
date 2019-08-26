@@ -6,7 +6,7 @@ BIDS @ University of California, Berkeley
 
 * Support material for the tutorial _3D image processing with scikit-image_.
 
-Open it using Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alexdesiqueira/tutorials/master)
+Open it using Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alexdesiqueira/tutorials/master)`/2019/euroscipy2019`
 
 This tutorial will introduce how to analyze three dimensional stacked and volumetric images in Python, mainly using scikit-image. Here we will learn how to:
   * pre-process data using filtering, binarization and segmentation techniques.

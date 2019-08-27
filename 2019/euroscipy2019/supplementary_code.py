@@ -20,8 +20,17 @@ def show_plane(axis, plane, cmap="gray", title=None):
     return None
 
 
-def slice_in_3D(axis, shape, plane):
+def slice_in_3d(axis, shape, plane):
     """Draws a cube in a 3D plot.
+
+    Parameters
+    ----------
+    axis : matplotlib.Axes
+        A matplotlib axis to be drawn.
+    shape : tuple or array (1, 3)
+        Shape of the input data.
+    plane : int
+        Number of the plane to be drawn.
 
     Notes
     -----
@@ -67,7 +76,7 @@ def slice_in_3D(axis, shape, plane):
                        [0, 0, 1],
                        [0, 1, 1],
                        [0, 1, 0]]])
-    verts = verts * (60, 256, 256)
+    verts = verts * shape
     verts += [plane, 0, 0]
 
     axis.add_collection3d(
@@ -89,15 +98,23 @@ def slice_in_3D(axis, shape, plane):
 
 
 def slice_explorer(data, cmap='gray'):
-    N = len(data)
+    """Allows to explore 2D slices in 3D data.
 
-    @interact(plane=(0, N - 1))
-    def display_slice(plane=34):
-        fig, axis = plt.subplots(figsize=(20, 5))
-        axis_3D = fig.add_subplot(133, projection='3d')
-        show_plane(axis, data[plane], title=f'Plane {plane}', cmap=cmap)
-        slice_in_3D(axis=axis_3D, shape=data.shape, plane=plane)
+    Parameters
+    ----------
+    data : array (M, N, P)
+        3D interest image.
+    cmap : str (optional)
+        A string referring to one of matplotlib's colormaps.
+    """
+    data_len = len(data)
 
+    @interact(plane=(0, data_len-1), continuous_update=False)
+    def display_slice(plane=data_len/2):
+        fig, axis = plt.subplots(figsize=(20, 7))
+        axis_3d = fig.add_subplot(133, projection='3d')
+        show_plane(axis, data[plane], title='Plane {}'.format(plane), cmap=cmap)
+        slice_in_3d(axis=axis_3d, shape=data.shape, plane=plane)
         plt.show()
 
     return display_slice

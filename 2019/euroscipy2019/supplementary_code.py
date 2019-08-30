@@ -3,7 +3,6 @@ import numpy as np
 
 from ipywidgets import interact
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection
-from scipy import stats
 from skimage import exposure, io, measure
 
 
@@ -206,7 +205,7 @@ def results_from_part_1():
 
     data = io.imread("images/cells.tif")
 
-    vmin, vmax = stats.scoreatpercentile(data, (0.5, 99.5))
+    vmin, vmax = np.percentile(data, q=(0.5, 99.5))
     rescaled = exposure.rescale_intensity(
         data,
         in_range=(vmin, vmax),

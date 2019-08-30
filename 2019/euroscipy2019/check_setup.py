@@ -16,7 +16,6 @@ reqs = [(pkg, ver) for (pkg, _, ver) in
 pkg_names = {
     'jupyter-notebook': 'notebook',
     'scikit-image': 'skimage',
-    'scikit-learn': 'sklearn'
 }
 
 for (pkg, version_wanted) in reqs:

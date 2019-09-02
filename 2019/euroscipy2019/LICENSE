@@ -1,6 +1,7 @@
 Copyright (C) 2019 Alexandre Fioravante de Siqueira
 
-This tutorial is released under the license CC-BY 3.0.
+This tutorial is released under the license CC-BY 3.0. It is heavily based on materials available at 
+skimage-tutorials: a collection of tutorials for the scikit-image package. Available at: <https://github.com/scikit-image/skimage-tutorials>
 
 Creative Commons
 Attribution 3.0 Unported

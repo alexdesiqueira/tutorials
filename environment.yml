@@ -11,3 +11,4 @@ dependencies:
   - notebook >= 4.0
   - itk >= 5.0
   - itkwidgets >= 0.18
+  - joblib >= 0.12
